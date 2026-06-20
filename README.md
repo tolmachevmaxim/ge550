@@ -1,6 +1,6 @@
 # ge550 — TP-Link Archer GE550 Agent Skill
 
-A dependency-light [Agent Skill](https://agentskills.io) to manage a **TP-Link Archer GE550** router through its local HTTPS API: read/write 200+ admin endpoints, control Wi-Fi bands / MLO / OFDMA / Smart Connect, VPN, USB/SMB, and read traffic + client stats — with automatic redaction of passwords/keys in all output. The  entry point follows the cross-vendor Agent Skills standard (Claude Code / Codex / Cursor / Gemini).
+A dependency-light [Agent Skill](https://agentskills.io) to manage a **TP-Link Archer GE550** router through its local HTTPS API: read/write 200+ admin endpoints, control Wi-Fi bands / MLO / OFDMA / Smart Connect, VPN, USB/SMB, and read traffic + client stats — with automatic redaction of passwords/keys in all output. The `SKILL.md` entry point follows the cross-vendor Agent Skills standard (Claude Code / Codex / Cursor / Gemini).
 
 > Configure your router URL with `--host` (default `https://192.168.0.1`). The admin password is read from the macOS Keychain or the `TP_PASS` env var — never hardcoded. Uses the `tplinkrouterc6u` library.
 
